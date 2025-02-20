@@ -8,9 +8,9 @@ An automated jumper for the Google Chrome Dino game using an Arduino, a light se
 - Simple and lightweight Arduino-based setup.
 
 ## 🛠️ Components Used
-- Arduino (Uno/Nano/any compatible board)  
+- Arduino Uno 
 - Servo Motor (e.g., SG90)  
-- Light Sensor (e.g., LDR)  
+- Light Sensor (here used LDR)  
 - Resistor (10kΩ for LDR voltage divider)  
 - Jumper Wires  
 - Breadboard  
