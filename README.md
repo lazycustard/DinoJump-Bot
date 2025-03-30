@@ -21,7 +21,12 @@ An automated jumper for the Google Chrome Dino game using an Arduino, a light se
 2. **Servo Motor:**  
    - **Signal Pin** → Arduino **Pin 9**  
    - **VCC** → **5V**  
-   - **GND** → **GND**  
+   - **GND** → **GND**
+
+## ⚡ Working Mechanism  
+The **LDR (Light Dependent Resistor)** is positioned directly over the Dino in the game. Since the game background is a constant light shade and obstacles like cacti and birds are darker, the LDR detects a sudden drop in light intensity when an obstacle approaches.  
+
+The **Arduino processes this data** and determines if a jump is required. If the detected brightness drops below a set threshold (indicating an obstacle), the **servo motor is triggered to press the jump key**, making the Dino leap over the obstacle.  
 
 ## 🚀 Future Advancements
 - **Obstacle Differentiation:** Improve detection to distinguish between birds and cacti, enabling ducking or jumping as needed.  
